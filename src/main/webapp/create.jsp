@@ -1,16 +1,26 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 20.06.2023
-  Time: 15:56
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+</head>
+<body>
+<h2>HTML Forms</h2>
+
+<form action="create" method="post">
+    First name:<br>
+    <input name="person_name"/>
+    <br>
+    Last name:<br>
+    <input name="person_lastname"/>
+    <br>
+    Age:<br>
+    <input name="person_age"/>
+    <br>
+    Login:<br>
+    <input name="person_login"/>
+    <br>
+    <br>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
 </html>

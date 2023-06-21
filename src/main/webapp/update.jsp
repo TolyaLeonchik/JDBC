@@ -1,16 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 21.06.2023
-  Time: 12:46
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<h2>Enter id, which you want to change login</h2>
+
+<form action="change-login" method="post">
+</form>
+</body>
 </html>
